@@ -1,0 +1,86 @@
+/* MATERIAL DESIGN RAPTOR V1.0 */
+
+/*.mdl-layout__header{    background: #263238 !important;}*/
+.mdl-layout__header{ background: #e3e1d1 !important;}
+/*
+#header--name{font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    letter-spacing: 10px;
+    color: rgba(255,255,255,0.85);}*/
+    
+    /* header */
+    .mdl-layout__title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    color: #717171;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+.portfolio-navigation-row {
+    background-color: rgba(0, 0, 0, 0.2);}
+    
+    .portfolio-navigation-row {
+    background-color: rgba(255, 255,255, 0.6);
+}
+
+.portfolio-navigation-row .mdl-navigation__link{color: rgb(66,66,67);}
+
+.layout--grid{max-width: 1800px;}
+.banner{    background: url("http://orig14.deviantart.net/5572/f/2007/179/b/1/arctic_monkeys_concert_2_by_k0mal.jpg");
+    color: #ffffff;
+    text-align: center;}
+    .banner h1{background-color: rgba(0,0,0,0.5);}
+    
+    
+/* heading -- index */
+.top-heading{    letter-spacing: 3px;
+    font-size: 1.3em;
+    color: #222;
+    text-align: center;
+}
+.separator{height: 2px;
+    width: 100px;
+    margin: 0 auto;
+    background: rgb(255,64,129);
+    
+}
+.sub-heading{    letter-spacing: 3px;
+    font-weight: 300!important;
+    color: #222;
+    font-size: 1.3em;
+    text-align: center;
+}
+    
+.heading--{text-align: center;}
+#head-cell-1{background: url("../images/liam.jpg");
+        background-position: 50% 28%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-color: black;
+    height: 200px;
+}
+
+
+
+
+
+
+.demo-card-wide.mdl-card {
+  width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../images/liam.jpg') center;
+  background-position: 20% 30%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
