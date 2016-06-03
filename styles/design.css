@@ -65,10 +65,29 @@
     height: 200px;
 }
 
+#head-cell-2{background: url("http://houselist.bowerypresents.com/files/2014/07/the-kooks-at-terminal-5-8.jpg");
+        background-position: 25% 10%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-color: black;
+    height: 220px;
+}
 
 
+#head-cell-3{background: url("../images/joshua.jpg");
+    background-position: 25% 10%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-color: black;
+    height: 220px;
+}
+
+.quote-frame{text-align: center; color: black;}
+.quote-frame span{padding-bottom: 5px; border-bottom: 2px solid gray; font-style: italic;}
 
 
+.test h3{color: #222;}
+.test p{font-weight: 300; color: #585858;}
 
 .demo-card-wide.mdl-card {
   width: 100%;
