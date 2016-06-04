@@ -167,7 +167,7 @@ img.article-image {
     display: flex;
 }
 
-.position-icon{ float: right;     color: #9E9E9E;}
+.position-icon{ float: right;     color: #9E9E9E; margin-top: 10px;}
 
 .portfolio-contact .mdl-textfield {
   width: 100%;
@@ -186,3 +186,33 @@ footer {
 #history-banner{height: 200px; background: url(http://41.media.tumblr.com/95f9a7bd487d5bdad0921f9ae401ef26/tumblr_nit656qRAH1tic9fko1_1280.jpg); background-position: center;}
 .history-name{margin: 0 auto;}
 #history-banner-2{height: 200px; background: url(http://i160.photobucket.com/albums/t162/hotlyts24/fb-covers/bands/nirvana.png); background-position: center;}
+
+
+.demo-card-event.mdl-card {
+
+  background: #3E4EB8;
+}
+
+#cage-info{background: url(../images/concerts/cage-concert.jpg); background-size: cover;}
+.demo-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.demo-card-event > .mdl-card__title {
+  align-items: flex-start;
+}
+.demo-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+.demo-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+.demo-card-event > .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
