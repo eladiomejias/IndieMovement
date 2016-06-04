@@ -89,17 +89,31 @@
 .test h3{color: #222;}
 .test p{font-weight: 300; color: #585858;}
 
-.demo-card-wide.mdl-card {
+
+.demo-card-wide.mdl-card, #second-card{
   width: 100%;
 }
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('../images/liam.jpg') center;
+   background: url('../images/liam.jpg') center;
   background-position: 20% 30%;
   background-repeat: no-repeat;
   background-color: black;
+ 
 }
-.demo-card-wide > .mdl-card__menu {
+.demo-card-wide > .mdl-card__menu, #second-card > .mdl-card__menu {
   color: #fff;
 }
+
+
+#second-card >.mdl-card__title{ 
+    background: url('http://ingozi.com/blog/wp-content/uploads/soundofguns-banner.jpg') center;
+  background-position: 20% 80%;
+  background-repeat: no-repeat;
+  background-color: black; 
+  color: #fff;
+  height: 176px;
+}
+
+.mdl-typography--headline{color: black;}

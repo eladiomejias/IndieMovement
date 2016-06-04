@@ -144,6 +144,19 @@ img.article-image {
   top: -4px;
 }
 
+.circle-img{width: 100px; border-radius: 50%;}
+.img-container{text-align: center;}
+.blog-sub-heading{    margin-top: 0px;
+    font-size: 0.95em;
+    color: gray;}
+.blog-heading{    margin: 0px;
+    color: black;
+    font-size: 26px;}
+    .blog-content{       font-size: 0.825em;
+    line-height: 1.25;
+    color: rgba(0,0,0,.54);
+    margin-bottom: 10px;}
+
 .demo-card-event > .mdl-card__actions {
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -153,6 +166,8 @@ img.article-image {
     display: -ms-flexbox;
     display: flex;
 }
+
+.position-icon{ float: right;     color: #9E9E9E;}
 
 .portfolio-contact .mdl-textfield {
   width: 100%;
@@ -168,3 +183,6 @@ footer {
   background-size: cover;
 }
 
+#history-banner{height: 200px; background: url(http://41.media.tumblr.com/95f9a7bd487d5bdad0921f9ae401ef26/tumblr_nit656qRAH1tic9fko1_1280.jpg); background-position: center;}
+.history-name{margin: 0 auto;}
+#history-banner-2{height: 200px; background: url(http://i160.photobucket.com/albums/t162/hotlyts24/fb-covers/bands/nirvana.png); background-position: center;}
