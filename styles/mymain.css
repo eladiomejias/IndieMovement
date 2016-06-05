@@ -194,6 +194,9 @@ footer {
 }
 
 #cage-info{background: url(../images/concerts/cage-concert.jpg); background-size: cover;}
+#vampire-info{ background: url(../images/vampireweekend.jpg) center / cover; }
+.grayscale{    background: rgba(0,0,0,0.4);}
+.paragra{letter-spacing: 1px;}
 .demo-card-event > .mdl-card__actions {
   border-color: rgba(255, 255, 255, 0.2);
 }
@@ -216,3 +219,55 @@ footer {
 .demo-card-event > .mdl-card__actions > .mdl-button {
   color: #fff;
 }
+
+.img-card-container{text-align: center; margin-top: 10px;}
+.img-card-solo{width: 120px; border-radius: 50%; height: 120px;}
+#cage1{background: url(../images/cage.png); background-size: cover; background-position: center; margin: 0 auto;}
+#strokes2{background: url(../images/strokes.png); background-size: cover; background-position: 95% 80%; margin: 0 auto;}
+
+
+.demo-card-image.mdl-card #reflektor{
+
+  /*********************** IMPORTANT ***************/
+  background: url('../images/albums/Reflektor.jpg') center / cover;
+}
+
+#reflektor{
+  
+   background: url('../images/albums/Reflektor.jpg') center / cover;
+  
+}
+
+#lonerism{
+
+  /*********************** IMPORTANT ***************/
+  background: url('../images/albums/Lonerism.jpg') center / cover;
+} 
+
+
+#phobia{  background: url('../images/albums/Melophobia.jpg') center / cover; }
+
+
+
+.demo-card-image > .mdl-card__actions {
+
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+ letter-spacing: 2px;
+}
+
+.clarity{background-color: rgba(255,64,129,0.7)!important; }
+
+.photo-card a{color: #f5f5f5; margin-top: 10px;}
+
+#tame-impala{ background: url('../images/TameImpala.jpg') center / cover; margin: 0 auto;}
+.follow-artist{font-size: 30px;     margin-bottom: 15px;
+    display: block;
+    text-align: center;
+    color: black;}
