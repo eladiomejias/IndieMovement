@@ -246,6 +246,8 @@ footer {
 
 
 #phobia{  background: url('../images/albums/Melophobia.jpg') center / cover; }
+#death-cab-for-cutie{background: url('../images/death-cab-for-cutie.jpg') 8% 40% / cover; margin: 0 auto; }
+#bumbershoot{background: url('../images/bumbershoot.jpg');}
 
 
 
@@ -271,3 +273,7 @@ footer {
     display: block;
     text-align: center;
     color: black;}
+    
+.circle-img{width: 100px; height: 100px; border-radius: 50%;}
+
+.bands{text-align:center; margin: 0 auto;}
