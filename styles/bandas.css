@@ -107,5 +107,23 @@ ul{ list-style: none;}
 
 /**************/
 
-#arctic-info{ background: url(../images/bands-imgs/arctic-monkeys/Arctics1.png) !important; background-size: cover;}
+#arctic-info{ background: url(../images/bands-imgs/arctic-monkeys/Arctics.jpg) !important; background-size: cover;}
+#arctic-info-card{background: url(../images/bands-imgs/arctic-monkeys/arctic-monkeys.jpg) !important; background-size: cover !important;}
 .card-demo{padding: 5px;}
+
+.heading--white{color: white;}
+
+.button--custom{color: #222; background: rgba(255, 255, 255, 0.87);}
+.hide--this{visibility: hidden;}
+
+
+
+/* mgmt */
+
+#mgmt{background: url(../images/bands-imgs/mgmt/mgmt.jpg);
+    background-size: cover;
+    -ms-flex-negative: 0;
+    background-position: 50% 20%;}
+    
+#mgmt-info-card, #mgmt-info-card2{background: url(../images/bands-imgs/mgmt/mgmt-band-two.jpg) !important; background-size: cover !important;}
+.block-content{display:block;}
