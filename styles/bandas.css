@@ -135,3 +135,25 @@ ul{ list-style: none;}
     
     #tame-impala-info-card{background: url(../images/bands-imgs/tame-impala/tame-impala-info.jpg) !important; background-size: cover !important;}
 .block-content{display:block;}
+
+
+#the-strokes{background: url(../images/bands-imgs/the-strokes/the-strokes.jpg);
+    background-size: cover;
+    -ms-flex-negative: 0;
+    background-position: 50% 20%;}
+    
+#vampire-weekend{background: url(../images/bands-imgs/vampire-weekend/vampireweekend.jpg);
+    background-size: cover;
+    -ms-flex-negative: 0;
+    background-position: 50% 90%;}
+    
+    
+     
+    #vampire-weekend-info-card{background: url(../images/bands-imgs/vampire-weekend/vampire-weekend-info-card.jpg) !important; background-size: cover !important;}
+.block-content{display:block;}
+
+#cage-the-elephant{background: url(../images/bands-imgs/cage-the-elephant/cage-the-elephant.jpg);
+    background-size: cover;
+    -ms-flex-negative: 0;
+    background-position: center center;}
+#cage-info-card{background: url(../images/bands-imgs/cage-the-elephant/cage-info-card.png) !important; background-size: cover !important; background-position: center center !important;}
