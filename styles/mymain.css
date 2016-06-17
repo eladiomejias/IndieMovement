@@ -287,3 +287,26 @@ footer {
 .bands{text-align:center; margin: 0 auto;}
 .starred{color: #f9f14d;
     width: 24px !important;}
+    
+
+#definicion{
+      background: url('https://cdn0.iconfinder.com/data/icons/beach/6144/15-256.png') center;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: rgb(212, 214, 193);
+}
+
+#caracteristicas{ 
+      background: url('https://cdn1.iconfinder.com/data/icons/avatars-groups/128/groups-05-256.png') center;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: initial;
+      background-color:rgb(100, 199, 205);}
+  
+  
+.mdl-card__supporting-text{color: #888;}
+.mini-banner{background: rgb(255, 64, 135);
+    color: white;}
+    
+.quote-frame span{border-bottom-color: #eee !important;}
