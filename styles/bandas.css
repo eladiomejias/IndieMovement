@@ -128,10 +128,10 @@ ul{ list-style: none;}
 #mgmt-info-card, #mgmt-info-card2{background: url(../images/bands-imgs/mgmt/mgmt-band-two.jpg) !important; background-size: cover !important;}
 .block-content{display:block;}
 
-#tame-impala{background: url(../images/bands-imgs/tame-impala/tame-impala.jpg);
+#tame-impala{background: url(../images/bands-imgs/tame-impala/TameImpala.jpg);
     background-size: cover;
     -ms-flex-negative: 0;
-    background-position: 50% 20%;}
+    background-position: 50% 50%;}
     
     #tame-impala-info-card{background: url(../images/bands-imgs/tame-impala/tame-impala-info.jpg) !important; background-size: cover !important;}
 .block-content{display:block;}

@@ -228,6 +228,8 @@ footer {
   color: #fff;
 }
 
+.emoticon-text{height: 42px;}
+
 .img-card-container{text-align: center; margin-top: 10px;}
 .img-card-solo{width: 120px; border-radius: 50%; height: 120px;}
 #cage1{background: url(../images/cage.png); background-size: cover; background-position: center; margin: 0 auto;}
@@ -254,7 +256,7 @@ footer {
 
 
 #phobia{  background: url('../images/albums/Melophobia.jpg') center / cover; }
-#death-cab-for-cutie{background: url('../images/death-cab-for-cutie.jpg') 8% 40% / cover; margin: 0 auto; }
+#death-cab-for-cutie{background: url('../images/death-cab-sing.jpg') 8% 40% / cover; margin: 0 auto; }
 #bumbershoot{background: url('../images/bumbershoot.jpg');}
 
 
