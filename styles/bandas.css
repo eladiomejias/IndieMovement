@@ -156,4 +156,11 @@ ul{ list-style: none;}
     background-size: cover;
     -ms-flex-negative: 0;
     background-position: center center;}
-#cage-info-card{background: url(../images/bands-imgs/cage-the-elephant/cage-info-card.png) !important; background-size: cover !important; background-position: center center !important;}
+#cage-info-card{background: url(../images/bands-imgs/the-kooks/the-kooks-info.jpg) !important; background-size: cover !important; background-position: center center !important;}
+
+
+#the-kooks{background: url(../images/bands-imgs/the-kooks/the-kooks.jpg);
+    background-size: cover;
+    -ms-flex-negative: 0;
+    background-position: center 20%;}
+#the-kooks-info-card{background: url(../images/bands-imgs/the-kooks/the-kooks-info.jpg)!important; background-size: cover !important; background-position: center center !important;}
