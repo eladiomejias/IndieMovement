@@ -212,3 +212,8 @@ html, body {
   z-index: 99;
 }
 
+::selection {
+    background: pink;
+    color: #fdf1f2;
+    text-shadow: 0 1px 1px #A294A2;
+}
