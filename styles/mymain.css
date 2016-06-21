@@ -323,4 +323,15 @@ footer {
 .contact-container{background: #d7d3c0;}
 .timehour-container{background: #eaeaea;}
 #clock-header{height: 150px; background: url(../images/assets/clock.jpg); background-position: center center; }
-.timer{text-align: center; font-size: 1.1em; color: white; padding: 10px; background: #14a79d; border-top: 2px solid white;}
+.timer{text-align: center;  color: white; padding: 10px; background: #14a79d; border-top: 2px solid white; margin: 0px;}
+#fecha{text-align: center;
+    padding: 10px;
+    background: #14a79d;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 0px;
+    font-size: 10.8px;
+    position: relative;
+    top: -20px;
+}
