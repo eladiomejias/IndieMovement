@@ -321,7 +321,7 @@ footer {
 .quote-frame span{border-bottom-color: #eee !important;}
 
 .contact-container{background: #d7d3c0;}
-.timehour-container{background: #eaeaea;}
+.timehour-container{background: #14a79d; height: 280px;}
 #clock-header{height: 150px; background: url(../images/assets/clock.jpg); background-position: center center; }
 .timer{text-align: center;  color: white; padding: 10px; background: #14a79d; border-top: 2px solid white; margin: 0px;}
 #fecha{text-align: center;
@@ -335,3 +335,15 @@ footer {
     position: relative;
     top: -20px;
 }
+
+.mdl-textfield .mdl-js-textfield{ margin: 10px;}
+
+.centering-checkboxes{    
+  display: inline;
+    margin: 10px;}
+    
+.txt-heading{margin-top: 20px;}
+
+.register-form{ color: #585757;}
+
+.trivia-cards .mdl-radio__label{font-size: 13px;}
