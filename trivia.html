@@ -51,6 +51,8 @@
     <!-- Your styles -->
     <link rel="stylesheet" href="styles/mymain.css">
     <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/sweetalert.css">
+
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -105,8 +107,15 @@
       
        </div>
       </div>
+      
+      <!-- <form  onsubmit=""> -->
+          
+     
             <div class="mdl-grid portfolio-max-width">
- 
+                 
+                     
+                     
+                 
                
                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
                     <div class="mdl-card__media">
@@ -119,28 +128,28 @@
                         Seleccione el término global indie en la fase musical ó el tipo de genero que es.
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option1">
-                              <input type="radio" id="option1" name="genero" class="mdl-radio__button">
+                              <input type="radio" id="option1" name="terms" value="first" class="mdl-radio__button">
                               <span class="mdl-radio__label">Musica independiente</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option2">
-                              <input type="radio" id="option2" name="genero" class="mdl-radio__button" checked>
+                              <input type="radio" id="option2" name="terms" value="second"  class="mdl-radio__button" checked>
                               <span class="mdl-radio__label">Pop / Rock</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option3">
-                              <input type="radio" id="option3" name="genero" class="mdl-radio__button">
+                              <input type="radio" id="option3" name="terms" value="third" class="mdl-radio__button">
                               <span class="mdl-radio__label">Synth Rock</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option4">
-                              <input type="radio" id="option4" name="genero" class="mdl-radio__button">
+                              <input type="radio" id="option4" name="terms" value="four" class="mdl-radio__button">
                               <span class="mdl-radio__label">Musica libre</span>
                            </label>
                         </diV>
@@ -158,28 +167,28 @@
                         Seleccione la banda que no pertenece al movimiento indie.
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option5">
-                              <input type="radio" id="option5" name="bands" class="mdl-radio__button">
+                              <input type="radio" id="option5" name="noband" value="first" class="mdl-radio__button">
                               <span class="mdl-radio__label">Arctic Monkeys</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option6">
-                              <input type="radio" id="option6" name="bands" class="mdl-radio__button" checked>
+                              <input type="radio" id="option6" name="noband" value="second" class="mdl-radio__button" checked>
                               <span class="mdl-radio__label">Vampire Weekend</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option7">
-                              <input type="radio" id="option7" name="bands" class="mdl-radio__button">
+                              <input type="radio" id="option7" name="noband" value="third" class="mdl-radio__button">
                               <span class="mdl-radio__label">The Strokes</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option8">
-                              <input type="radio" id="option8" name="bands" class="mdl-radio__button">
+                              <input type="radio" id="option8" name="noband" value="four" class="mdl-radio__button">
                               <span class="mdl-radio__label">Foo Fighters</span>
                            </label>
                         </diV>
@@ -199,28 +208,28 @@
                         Seleccione el sub-genero del Indie
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option9">
-                              <input type="radio" id="option9" name="gender" class="mdl-radio__button">
+                              <input type="radio" id="option9" name="gender" value="first" class="mdl-radio__button">
                               <span class="mdl-radio__label">Garage rock</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option10">
-                              <input type="radio" id="option10" name="gender" class="mdl-radio__button" checked>
+                              <input type="radio" id="option10" name="gender" value="second"  class="mdl-radio__button" checked>
                               <span class="mdl-radio__label">Rock alternativo</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option11">
-                              <input type="radio" id="option11" name="gender" class="mdl-radio__button">
+                              <input type="radio" id="option11" name="gender" value="third" class="mdl-radio__button">
                               <span class="mdl-radio__label">Metalcore</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option12">
-                              <input type="radio" id="option12" name="gender" class="mdl-radio__button">
+                              <input type="radio" id="option12" name="gender" value="four" class="mdl-radio__button">
                               <span class="mdl-radio__label">Nu metal</span>
                            </label>
                         </diV>
@@ -240,28 +249,28 @@
                        Cual de estas es una caracteristica de la musica Indie.
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option13">
-                              <input type="radio" id="option13" name="last" class="mdl-radio__button">
+                              <input type="radio" id="option13" name="carac" value="first" class="mdl-radio__button">
                               <span class="mdl-radio__label">Riffs rápidos</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option14">
-                              <input type="radio" id="option14" name="last" class="mdl-radio__button" checked>
+                              <input type="radio" id="option14" name="carac" value="second" class="mdl-radio__button" checked>
                               <span class="mdl-radio__label">Sin complejidad</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option15">
-                              <input type="radio" id="option15" name="last" class="mdl-radio__button">
+                              <input type="radio" id="option15" name="carac" value="third" class="mdl-radio__button">
                               <span class="mdl-radio__label">Alto ritmo musical</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option16">
-                              <input type="radio" id="option16" name="last" class="mdl-radio__button">
+                              <input type="radio" id="option16" name="carac" value="four" class="mdl-radio__button">
                               <span class="mdl-radio__label">Suave y melódico</span>
                            </label>
                         </diV>
@@ -282,28 +291,28 @@
                       Seleccione su opcion
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option17">
-                              <input type="radio" id="option17" name="data" class="mdl-radio__button">
+                              <input type="radio" id="option17" name="mov" value="first" class="mdl-radio__button">
                               <span class="mdl-radio__label">Una subcultura</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option18">
-                              <input type="radio" id="option18" name="data" class="mdl-radio__button" checked>
+                              <input type="radio" id="option18" name="mov" value="second" class="mdl-radio__button" checked>
                               <span class="mdl-radio__label">Un genero</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option19">
-                              <input type="radio" id="option19" name="data" class="mdl-radio__button">
+                              <input type="radio" id="option19" name="mov" value="third" class="mdl-radio__button">
                               <span class="mdl-radio__label">Un estilo de vida</span>
                            </label>
                         </diV>
                         
                         <diV>
                            <label class="mdl-radio mdl-js-radio" for="option20">
-                              <input type="radio" id="option20" name="data" class="mdl-radio__button">
+                              <input type="radio" id="option20" name="mov" value="four" class="mdl-radio__button">
                               <span class="mdl-radio__label">Un musico</span>
                            </label>
                         </diV>
@@ -321,7 +330,7 @@
                        <!-- Accent-colored flat button -->
                         <!-- Colored FAB button with ripple -->
                     <h2 class="mdl-card__title-text">Obtén tus resultados de la trivia.</h2>
-                    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--accent" id="trivia-button">
                       <i class="material-icons">done</i>
                     </button>
                     </div>
@@ -329,8 +338,9 @@
                 
                 
               
-                
+               
             </div>
+             <!-- </form> -->
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
                     <div class="mdl-logo">Indie Movement 2016.</div>
@@ -347,6 +357,8 @@
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     <!-- build:js(app/) ../../scripts/main.min.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/sweetalert.min.js"></script>
+    <script src="scripts/functions.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
