@@ -208,7 +208,7 @@ footer {
   background: #3E4EB8;
 }
 
-#cage-info{background: url(../images/concerts/cage-concert.jpg); background-size: cover;}
+#cage-info-card1{background: url(../images/bands-imgs/cage-the-elephant/cage-the-elephant-band.jpg); background-size: cover;}
 #vampire-info{ background: url(../images/vampireweekend.jpg) center / cover; }
 .grayscale{    background: rgba(0,0,0,0.4);}
 .paragra{letter-spacing: 1px;}
@@ -402,7 +402,7 @@ textarea{font-family: "Roboto","Helvetica","Arial",sans-serif; font-size: 0.85em
     
 /* circle classes */
 .circle-garage{background: #9c9289;}
-.circle-indie-rock{background: #f5f5dc;}
+.circle-indie-rock{background: #fff3cf;}
 .circle-rock-altern{background: #0091c9;}
 .circle-post-punk{background: #5100a7; }
 .circle-indie-pop{background: #ffc4c4;}
@@ -413,3 +413,5 @@ textarea{font-family: "Roboto","Helvetica","Arial",sans-serif; font-size: 0.85em
 .circle-neo-psico{background: #00dcac;}
 .circle-rock-progresivo{background: #4a9a8a;}
 .circle-rock-psico{background: #b2daed;}
+.circle-brit-pop{background: #ffe7e7;}
+.circle-blues-rock{background: #4cb2d9;}
