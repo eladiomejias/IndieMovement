@@ -39,7 +39,7 @@
         day = "Vier";
         break;
     case 6:
-        day = "Sabs"; 
+        day = "Sab"; 
       }
     
     	return day;
