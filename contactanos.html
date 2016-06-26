@@ -67,7 +67,8 @@
                     <a class="mdl-navigation__link " href="blog.html">Blog</a>
                     <a class="mdl-navigation__link " href="noticias.html">Noticias</a>
                     <a class="mdl-navigation__link" href="historia.html">Historia</a>
-                    <a class="mdl-navigation__link" href="about.html">Bandas</a>
+                    <a class="mdl-navigation__link" href="bandas.html">Bandas</a>
+                    <a class="mdl-navigation__link" href="trivia.html">Trivia</a>
                     <a class="mdl-navigation__link is-active" href="contact.html">Contactanos</a>
                 </nav>
             </div>
@@ -78,7 +79,8 @@
                     <a class="mdl-navigation__link" href="blog.html">Blog</a>
                     <a class="mdl-navigation__link" href="noticias.html">Noticias</a>
                     <a class="mdl-navigation__link" href="historia.html">Historia</a>
-                    <a class="mdl-navigation__link" href="about.html">Bandas</a>
+                    <a class="mdl-navigation__link" href="bandas.html">Bandas</a>
+                    <a class="mdl-navigation__link" href="trivia.html">Trivia</a>
                     <a class="mdl-navigation__link is-active" href="contactanos.html">Contactanos</a>
             </nav>
         </div>
@@ -100,11 +102,8 @@
        <div class="mdl-grid portfolio-max-width">
         
               
-            <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-card mdl-shadow--1dp">
-              <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
-				<h2 class="mdl-card__title-text">Registro de Usuario</h2>
-			</div>
-			<div></div>
+            <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-card mdl-shadow--2dp">
+			<div class="register-form-banner"><i class="material-icons">perm_identity</i></div>
 			
 			<div class="mdl-card__supporting-text register-form">
 				<form action="#">
@@ -118,55 +117,67 @@
 						<label class="mdl-textfield__label" for="userpass">Contraseña</label>
 					</div>
 					
+						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input class="mdl-textfield__input" type="text"  pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" id="email" />
+						<label class="mdl-textfield__label" for="email">Email</label>
+						<span class="mdl-textfield__error">Ingrese un e-mail válido!</span>
+					</div>
+					
 					<div>
 					    
-			
+					<h4 class="txt-heading first-txt-heading">Sexo</h4>
 					<diV class="centering-checkboxes">
 					<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
                           <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="m" checked>
-                          <span class="mdl-radio__label">Hombre</span>
+                          <span class="mdl-radio__label short-name">Hombre</span>
                     </label>
                     </diV>
                     <diV class="centering-checkboxes">
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
                           <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="f">
-                          <span class="mdl-radio__label">Mujer</span>
+                          <span class="mdl-radio__label short-name">Mujer</span>
                     </label>
 					</diV>
 					
-					<p class="txt-heading">Tipo de preferencia musical</p>
+					<h4 class="txt-heading">Tipo de preferencia musical</h4>
 					
 				
-					<div>
+					<div class="centering">
+					    
+					 <div>
 					<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
                       <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-                      <span class="mdl-checkbox__label">Rock</span>
+                      <span class="mdl-checkbox__label short-name  check-name">Rock</span>
                     </label>
-                    
+                    </div>
+                    <div>
                     <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
                       <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
-                      <span class="mdl-checkbox__label">Pop</span>
+                      <span class="mdl-checkbox__label short-name  check-name">Pop</span>
                     </label>
-                    
+                    </div>
+                    <div>
                     <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
                       <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
-                      <span class="mdl-checkbox__label">Electronico</span>
+                      <span class="mdl-checkbox__label short-name  check-name">Electronico</span>
                     </label>
+                    </div>
 					</div>
 					
 					
-				    <p class="txt-heading">Opinion acerca de la página</p>
+				    <h4 class="txt-heading">Opinion acerca de la página</h4>
 				    
 				    <div class="mdl-textfield mdl-js-textfield">
                         <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
                         <label class="mdl-textfield__label" for="sample5">Escriba su opinión</label>
                     </div>
 				    
-					
 					</div>
 				
 				</form>
 			</div>
+			
+			
 			
 			<div class="mdl-card__actions mdl-card--border">
 				<button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">REGISTRARSE</button>

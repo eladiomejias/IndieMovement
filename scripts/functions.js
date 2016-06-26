@@ -17,7 +17,6 @@ button.onclick = function () {
     var cont = correctAnswers(answers);
    
     if(cont==5){
-        //swal("Tu resultado final de la trivia fue: "+cont+". Excelente trabajo!");
         showAdvice("Excelente trabajo!", cont);
     }else if(cont>=2 && cont<=4){
        showAdvice("Muy buen trabajo!", cont);
@@ -86,15 +85,3 @@ function correctAnswers(answer){
     return cont;
     
 }
-
-
-
-
-
-
-
-
-/* for on submit 
-function showUp(){
- alert("hello");
-}*/

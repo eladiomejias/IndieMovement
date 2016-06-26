@@ -307,11 +307,11 @@ footer {
 }
 
 #caracteristicas{ 
-      background: url('https://cdn1.iconfinder.com/data/icons/avatars-groups/128/groups-05-256.png') center;
+      background: url('../images/hip.png') center;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: initial;
-      background-color:rgb(100, 199, 205);}
+      background-color:rgb(63, 68, 73);}
   
   
 .mdl-card__supporting-text{color: #888;}
@@ -321,10 +321,15 @@ footer {
 .quote-frame span{border-bottom-color: #eee !important;}
 
 .contact-container{background: #d7d3c0;}
+
 .timehour-container{background: #14a79d; height: 280px;}
+
 #clock-header{height: 150px; background: url(../images/assets/clock.jpg); background-position: center center; }
-.timer{text-align: center;  color: white; padding: 10px; background: #14a79d; border-top: 2px solid white; margin: 0px;}
-#fecha{text-align: center;
+
+.timer{text-align: center;  color: white; padding: 10px; background: #14a79d; border-top: 2px solid white; margin: 0px; text-shadow: 3px 3px 2px #15716b;}
+
+#fecha{
+    text-align: center;
     padding: 10px;
     background: #14a79d;
     color: white;
@@ -334,6 +339,7 @@ footer {
     font-size: 10.8px;
     position: relative;
     top: -20px;
+    text-shadow: 2px 2px 1px #15716b;
 }
 
 .mdl-textfield .mdl-js-textfield{ margin: 10px;}
@@ -342,9 +348,45 @@ footer {
   display: inline;
     margin: 10px;}
     
-.txt-heading{margin-top: 20px;}
+.txt-heading{margin-top: 20px;/*padding: 10px;
+    background: rgb(255,64,129);
+    color: white;*/
+  width: 100%;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #b3b3b3;
+}
 
-.register-form{ color: #585757;}
+.register-form{ color: #585757; text-align:center;}
 
 .trivia-cards .mdl-radio__label{font-size: 13px;}
+
 .trivia-numbers{color: white; text-align:center;}
+
+.register-form-banner{    height: 175px;
+    background: #eee;
+    overflow: hidden;}
+    
+.register-form-banner i{    font-size: 210px;
+    display: block;
+    text-align: center;
+    color: #d2d2d2;}
+    
+    
+.short-name{font-size: 0.9em; color: #b1b1b1;}
+
+.centering{    text-align: initial;
+    width: 20%;
+    margin: 0 auto;}
+    
+.register-form .mdl-textfield{margin: 7px;}
+
+.register-form .mdl-radio__outer-circle, .register-form .mdl-checkbox__box-outline {border: 2px solid rgba(113, 112, 112, 0.54);}
+
+.first-txt-heading{margin-top: 0px;}
+
+textarea{font-family: "Roboto","Helvetica","Arial",sans-serif; font-size: 0.85em;}
+
+.check-name{font-size: 1.15em;}
+
+.register-form input, .register-form textarea{font-size: 14px;}
