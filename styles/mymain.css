@@ -390,3 +390,26 @@ textarea{font-family: "Roboto","Helvetica","Arial",sans-serif; font-size: 0.85em
 .check-name{font-size: 1.15em;}
 
 .register-form input, .register-form textarea{font-size: 14px;}
+.circle-genre{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: blue;
+    margin-right: 5px;
+    display: inline-block;
+   vertical-align: middle;
+}
+    
+/* circle classes */
+.circle-garage{background: #9c9289;}
+.circle-indie-rock{background: #f5f5dc;}
+.circle-rock-altern{background: #0091c9;}
+.circle-post-punk{background: #5100a7; }
+.circle-indie-pop{background: #ffc4c4;}
+.circle-pop-barroco{background: #b60077;}
+.circle-worldbeat{background: #160078;}
+.circle-indietronica{background: #00deaf;}
+.circle-pop-psico{background: #ebc4ff;}
+.circle-neo-psico{background: #00dcac;}
+.circle-rock-progresivo{background: #4a9a8a;}
+.circle-rock-psico{background: #b2daed;}
