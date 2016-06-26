@@ -388,7 +388,8 @@ footer {
 textarea{font-family: "Roboto","Helvetica","Arial",sans-serif; font-size: 0.85em;}
 
 .check-name{font-size: 1.15em;}
-
+.blocker{display: block;}
+    
 .register-form input, .register-form textarea{font-size: 14px;}
 .circle-genre{
     width: 15px;
@@ -399,7 +400,8 @@ textarea{font-family: "Roboto","Helvetica","Arial",sans-serif; font-size: 0.85em
     display: inline-block;
    vertical-align: middle;
 }
-    
+
+
 /* circle classes */
 .circle-garage{background: #9c9289;}
 .circle-indie-rock{background: #fff3cf;}
