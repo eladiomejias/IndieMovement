@@ -194,10 +194,6 @@ img.article-image {
   margin: auto;
 }
 
-footer {
-  background-image: url(images/footer-background.png);
-  background-size: cover;
-}
 
 #history-banner{height: 300px; background: url(../images/raices11.png); background-position: center; background-size: cover;}
 .history-name{margin: 0 auto;}
