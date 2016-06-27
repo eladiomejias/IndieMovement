@@ -1,0 +1,1 @@
+/* this script is for register form validation and some extra elements*/
