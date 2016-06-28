@@ -36,7 +36,7 @@ function showAdvice(sm, cont){
     
 
 
-    swal({   title: "Acertaste una cantidad de:  "+cont+"en la trivia, <br>"+sm,   
+    swal({   title: "Acertaste una cantidad de:  "+cont+" en la trivia. <br>"+sm,   
     showCancelButton: false,   
     confirmButtonText: "OK",   
     closeOnConfirm: false,   

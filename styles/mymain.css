@@ -358,6 +358,7 @@ img.article-image {
 .trivia-cards .mdl-radio__label{font-size: 13px;}
 
 .trivia-numbers{color: white; text-align:center;}
+#trivia-button{margin: 30px auto;}
 
 .register-form-banner{    height: 175px;
     background: #eee;
