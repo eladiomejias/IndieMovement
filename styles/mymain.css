@@ -282,6 +282,10 @@ img.article-image {
 .photo-card a{color: #f5f5f5; margin-top: 10px;}
 
 #tame-impala{ background: url('../images/TameImpala.jpg') center / cover; margin: 0 auto;}
+#foster-the-people{background: url('../images/bands-imgs/foster-the-people/foster-the-people.jpg');     background-position: 50% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;}
+#foster-people-info-card{background: url('../images/bands-imgs/foster-the-people/foster2.jpg');}
 .follow-artist{font-size: 30px;     margin-bottom: 15px;
     display: block;
     text-align: center;
@@ -398,6 +402,7 @@ textarea{font-family: "Roboto","Helvetica","Arial",sans-serif; font-size: 0.85em
    vertical-align: middle;
 }
 
+.darker{color: rgba(0,0,0,0.6) !important ; }
 
 /* circle classes */
 .circle-garage{background: #9c9289;}
