@@ -51,6 +51,8 @@
     <!-- Your styles -->
     <link rel="stylesheet" href="styles/mymain.css">
     <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/sweetalert.css">
+
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -106,7 +108,7 @@
 			<div class="register-form-banner"><i class="material-icons">perm_identity</i></div>
 			
 			<div class="mdl-card__supporting-text register-form">
-				<form action="#">
+				<form action="" onsubmit="return validation();">
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 						<input class="mdl-textfield__input" type="text"  pattern="[A-Z,a-z]*" id="username" />
 						<label class="mdl-textfield__label" for="username">Usuario</label>
@@ -146,19 +148,19 @@
 					    
 					 <div>
 					<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-                      <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+                      <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" name="checkboxes">
                       <span class="mdl-checkbox__label short-name  check-name">Rock</span>
                     </label>
                     </div>
                     <div>
                     <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
-                      <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                      <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" name="checkboxes">
                       <span class="mdl-checkbox__label short-name  check-name">Pop</span>
                     </label>
                     </div>
                     <div>
                     <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
-                      <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+                      <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input" name="checkboxes">
                       <span class="mdl-checkbox__label short-name  check-name">Electronico</span>
                     </label>
                     </div>
@@ -168,21 +170,23 @@
 				    <h4 class="txt-heading">Opinion acerca de la página</h4>
 				    
 				    <div class="mdl-textfield mdl-js-textfield">
-                        <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
-                        <label class="mdl-textfield__label" for="sample5">Escriba su opinión</label>
+                        <textarea class="mdl-textfield__input" type="text" rows= "3" id="comments" ></textarea>
+                        <label class="mdl-textfield__label" for="comments">Escriba su opinión</label>
                     </div>
 				    
 					</div>
 				
-				</form>
+			
 			</div>
 			
 			
 			
 			<div class="mdl-card__actions mdl-card--border">
-				<button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">REGISTRARSE</button>
+				<button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit">REGISTRARSE</button>
 			</div>
             
+            
+            	</form>
               
             </div>
             
@@ -225,8 +229,11 @@
     </div>
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     <!-- build:js(app/) ../../scripts/main.min.js -->
+    <script src="scripts/sweetalert.min.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/hour.js"></script>
+    <script src="scripts/script.js"></script>
+
 
     <!-- endbuild -->
 

@@ -26,9 +26,6 @@ button.onclick = function () {
          showAdvice("Mejor suerte para la próxima, sigue leyendo articulos!", cont);
     }
     
-   
-   
-
     
 };
 
