@@ -7,6 +7,7 @@ Indie Movement is a web page or template for bands and blogs, is also a web page
   * HTML
   * CSS3
   * JavaScript
+  * MDL Framework
 
 
 * Layouts
@@ -14,6 +15,7 @@ Indie Movement is a web page or template for bands and blogs, is also a web page
   * Solo layout
   * Contact form
   * Game layout
+  * Responsive layout
 
 
 * Color Palette
