@@ -1,4 +1,4 @@
-![Image of IndieMovement](/images/banner.png)
+![Image of IndieMovement](/images/Banner.png)
 ## Indie Movement.
 
 Indie Movement is a web page or template for bands and blogs, is also a web page into a app using manifest.json. If you want to use in your project clone and edit some css prefixes.
