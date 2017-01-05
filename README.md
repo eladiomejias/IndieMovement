@@ -1,7 +1,7 @@
 ![Image of IndieMovement](/images/BannerLayout.png)
 ## Indie Movement.
 
-Indie Movement is a web page or template for bands and blogs, is also a web page into a app using manifest.json. If you want to use in your project clone and edit some css prefixes.
+Indie Movement is a template for music sites or music blogs, inspired in indie music and style.
 
 * Tecnologies
   * HTML
