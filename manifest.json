@@ -47,5 +47,6 @@
   "start_url": "/IndieMovement/",
   "display": "standalone",
   "background_color": "#E3E1D1",
-  "theme_color": "#FF4081"
+  "theme_color": "#FF4081",
+  "splash_pages": null
 }
